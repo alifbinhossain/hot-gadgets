@@ -41,7 +41,10 @@ section{
         background-repeat: no-repeat;
         background-size: 150px;
         background-position:bottom left;
+        
+      
     }
+    
     .cr-div{ padding-top:30px;
 
     }
@@ -71,12 +74,12 @@ section{
     }
     .last-div{
         padding-top: 50px ;
-        max-width: 100%;
+        max-width: 100%
         
     }
     .box-1{
     
-        box-shadow: 2px 2px 10px lightgray;
+        box-shadow: 1px 1px 4px lightgray;
        
        border-radius: 20px;
        
@@ -85,13 +88,13 @@ section{
       
      }
      .box-2{
-    
-        box-shadow: 2px 2px 10px lightgray;
+     
+        box-shadow: 1px 1px 4px lightgray;
        
        border-radius: 20px;
        
-      
-      
+       padding-right: 50px;
+       
      }
      .bag-padding{
          padding-left: 60px;
@@ -111,3 +114,11 @@ font-weight: 700;
 text-decoration: underline;
 text-decoration-color:lightslategray;
     }
+  .box-1:hover img{
+      transform: scale(.73);
+      transition: transform .7s;
+  }
+  .box-2:hover img{
+      transform: scale(.7);
+      transition: transform .7s;
+  }
